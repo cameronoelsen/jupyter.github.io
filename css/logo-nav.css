@@ -38,7 +38,7 @@ body {
     -webkit-box-shadow: 1px 1px 1px #999;
     box-shadow: 1px 1px 1px #999;
 }
-.jupytercon-nav > li > .black-tab {
+.transparent-nav > li > .black-tab {
     color: black;
 }
 .navbar-logo {
@@ -561,13 +561,13 @@ body {
 }
 
 /* JupyterCon Jumbotron Styling */
-.jupytercon-navbar {
+.transparent-navbar {
     background-color: transparent;
 }
-.jupytercon-nav > li > a{
+.transparent-nav > li > a{
     color: white;
 }
-.jupytercon-nav > li > a:active, .jupytercon-nav > li > a:focus {
+.transparent-nav > li > a:active, .transparent-nav > li > a:focus {
   background-color: transparent;
 }
 .jupytercon-jumbotron {
@@ -609,6 +609,256 @@ body {
 }
 .footer-text {
     font-size: 16px;
+}
+
+/* Styling for JupyterLab page */
+
+.jupyterlab-jumbotron {
+    height: 500px;
+    color: white;
+    background-image: url(../assets/jupyterlab-space-bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: -70px;
+    margin-bottom: -70px;
+    padding-top: 70px;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.jupyterlab-jumbotron h2 {
+    margin-bottom: 4px;
+}
+
+.jupyterlab-header {
+    position: relative;
+    top: 100px;
+    z-index: -1;
+    animation: showHeaderText 1s ease 3s forwards;
+}
+
+.jupyterlab-header-logo {
+    visibility:hidden;
+    width: 328px;
+    display: block;
+    position: relative;
+    margin: auto;
+    z-index: -1;
+    top: 24px;
+}
+
+.jupyterlab-header-subhead {
+    /* Using this font size to make the header and subhead the same width */
+    font-size: 18px;
+}
+
+.jupyterlab-header-preview {
+    width: 800px;
+    padding-top: 16px;
+    z-index: 1;
+    margin-top: -276px;
+}
+
+.lab-loading-screen {
+    animation: fade 1s ease 2.8s forwards;
+    z-index: 1;
+    margin: auto;
+    width: 800px;
+}
+
+.lab-loading-screen-bg {
+    animation: fade 1s ease 2.8s forwards;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    width: 800px;
+    height: 317px;
+    top: 56px;
+    border-radius: 8px;
+}
+
+.lab-wordmark {
+    animation: fade 1s ease 2s forwards;
+    position: relative;
+    width: 372px;
+    top: 212px;
+    left: 52px;
+}
+
+#universe {
+    z-index: 1;
+    position: absolute;
+    overflow: hidden;
+    width: 800px;
+    height: 100%;
+    background-position: center 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 100px;
+}
+
+#galaxy {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#main-logo {
+    animation: fade 1s ease 2s forwards;
+    background-image: url(../assets/favicon.svg);
+    background-repeat: no-repeat;
+    background-size: 80px;
+    position: absolute;
+    background-position: left;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    margin-left: 156px;
+}
+
+.planet {
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-iteration-count: infinite;
+    animation-name: orbit;
+}
+
+#moon1.orbit {
+    opacity: 1;
+    animation: orbit 2s ease .5s;
+    width: 200px;
+    height: 140px;
+    margin-top: -36px;
+    margin-left: -248px;
+}
+
+#moon2.orbit {
+    opacity: 1;
+    animation: orbit 2s ease .5s;
+    width: 132px;
+    height: 180px;
+    margin-top: -47px;
+    margin-left: -296px;
+}
+
+#moon3.orbit {
+    opacity: 1;
+    display: flex;
+    align-items: flex-end;
+    animation: orbit 2s ease .5s;
+    width: 220px;
+    height: 166px;
+    margin-top: -100px;
+    margin-left: -250px;
+}
+
+#moon1 .planet {
+    animation: fade 1s ease 2s forwards;
+    background-color: #6F7070;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+}
+
+#moon2 .planet {
+    animation: fade 1s ease 2s forwards;
+    background-color: #767677;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    float: right;
+}
+
+#moon3 .planet {
+    animation: fade 1s ease 2s forwards;
+    background-color: #989798;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.orbit {
+    animation-iteration-count: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+}
+
+.spinner {
+    bott
+  margin: 100px auto;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  text-align: center;
+  -webkit-animation: sk-rotate 2.0s infinite linear;
+  animation: sk-rotate 2.0s infinite linear;
+}
+
+.dot1, .dot2 {
+  width: 60%;
+  height: 60%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  background-color: #333;
+  border-radius: 100%;
+  
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.dot2 {
+  top: auto;
+  bottom: 0;
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-rotate { 100% { -webkit-transform: rotate(360deg) }}
+@keyframes sk-rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+  0%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+@keyframes orbit {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    100% {
+        transform: rotateZ(-360deg);
+    }
+}
+
+@keyframes orbit2 {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes fade {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 /* Bootstrap Breakpoint Media Queries */
@@ -873,5 +1123,26 @@ body {
     }
     .footer ul {
         float: left;
+    }
+}
+
+/* Animations */
+
+@keyframes hideHeaderLogo {
+    0% {
+        top: 24px;
+    }
+    100% {
+        position: relative;
+        top: 140px;
+    }
+}
+
+@keyframes showHeaderText {
+    0% {
+        top: 100px;
+    }
+    100% {
+        top: -68px;
     }
 }

@@ -1,6 +1,6 @@
 $(document).ready(function() {
     if (window.outerWidth < 768) {
-                $('.navbar').removeClass('jupytercon-navbar');
+                $('.navbar').removeClass('transparent-navbar');
                 $('.navbar').addClass('navbar-white');
                 $('.tab').addClass('black-tab');
                 document.getElementById('jupyter-nav-logo').src = '/assets/nav_logo.svg';
@@ -9,14 +9,14 @@ $(document).ready(function() {
     $(window).bind('resize', function() {
         if (window.location.pathname == '/' || window.location.pathname == '/index.html') {
             if (window.outerWidth < 768) {
-                $('.navbar').removeClass('jupytercon-navbar');
+                $('.navbar').removeClass('transparent-navbar');
                 $('.navbar').addClass('navbar-white');
                 $('.tab').addClass('black-tab');
                 document.getElementById('jupyter-nav-logo').src = '/assets/nav_logo.svg';
                 $('.icon-bar').removeClass('white-icon-bar');
             }
             else {
-                $('.navbar').addClass('jupytercon-navbar');
+                $('.navbar').addClass('transparent-navbar');
                 $('.tab').removeClass('black-tab');
                 document.getElementById('jupyter-nav-logo').src = '/assets/white_nav_logo.svg';
                 $('.icon-bar').addClass('white-icon-bar');
@@ -30,7 +30,7 @@ $(document).ready(function() {
 
             // For JupyterCon Custom Navbar
             if (window.location.pathname == '/' || window.location.pathname == '/index.html') {
-                $('.navbar').removeClass('jupytercon-navbar');
+                $('.navbar').removeClass('transparent-navbar');
                 $('.tab').addClass('black-tab');
                 document.getElementById('jupyter-nav-logo').src = '/assets/nav_logo.svg';
                 $('.icon-bar').removeClass('white-icon-bar');
@@ -43,11 +43,11 @@ $(document).ready(function() {
             // For JupyterCon Custom Navbar
             if (window.location.pathname == '/' || window.location.pathname == '/index.html') {
                 if (window.outerWidth < 768) {
-                    $('.navbar').removeClass('jupytercon-navbar');
+                    $('.navbar').removeClass('transparent-navbar');
                 }
                 else {
                     console.log(window.location.pathname);
-                    $('.navbar').addClass('jupytercon-navbar');
+                    $('.navbar').addClass('transparent-navbar');
                     $('.tab').removeClass('black-tab');
                     document.getElementById('jupyter-nav-logo').src = '/assets/white_nav_logo.svg';
                     $('.icon-bar').addClass('white-icon-bar');
