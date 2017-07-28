@@ -55,4 +55,8 @@ $(document).ready(function() {
             }
         }
     });
+    
+    //Used to animate a parallax effect for JupyterLab page's notebook section
+    $('#lab-notebook-parallax').parallax({imageSrc: './assets/jupyterlab-space-bg.jpeg'});
+    
 });
