@@ -906,8 +906,11 @@ body {
 }
 
 .lab-ext-preview {
+    display: flex;
+    flex-flow: row;
     height: 404px;
     background-color: #757575;
+    overflow: hidden;
 }
 
 .lab-ext-preview-img {
@@ -952,6 +955,8 @@ body {
 
 .lab-ext-preview-content {
     display: none;
+    position: relative;
+    animation-name: none;
 }
 
 .lab-ext-preview-content.ext-active {
@@ -1357,4 +1362,44 @@ body {
 @-ms-keyframes move-twinkle-back {
     from {background-position:0 0;}
     to {background-position:-10000px 5000px;}
+}
+
+/* Pagination effect for JupyterLab extension section on the JupyterLab page */
+
+.move-ext-preview-left-out {
+    display: inline-block;
+    animation: .3s move-ext-preview-left-out ease forwards;
+}
+
+@keyframes move-ext-preview-left-out {
+    from {right: 0;}
+    to {right: 744px;}
+}
+
+.move-ext-preview-right-out {
+    display: inline-block;
+    animation: .3s move-ext-preview-right-out ease forwards;
+}
+
+@keyframes move-ext-preview-right-out {
+    from {left: -744px;}
+    to {left: 744px;}
+}
+
+.move-ext-preview-left-in {
+    display: inline-block;
+    animation: .3s move-ext-preview-left-in ease forwards;
+}
+
+@keyframes move-ext-preview-left-in {
+    from {right: 744px;}
+    to {right: 0px;}
+}
+.move-ext-preview-right-in {
+    display: inline-block;
+    animation: .3s move-ext-preview-right-in ease forwards;
+}
+@keyframes move-ext-preview-right-in {
+    from {left: 744px;}
+    to {left: -744px;}
 }
