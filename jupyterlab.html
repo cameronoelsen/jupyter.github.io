@@ -5,13 +5,13 @@ navbar_gray: false
 ---
 
 <section>
-    <div class="header jupyterlab-jumbotron">
+    <div class="header lab-jumbotron">
         <div class="container">
             <div class="row">
-                <img src="assets/jupyterlab_white.svg" class="jupyterlab-header-logo"/>
-                <div class="col-xs-12 jupyterlab-header">
-                    <h2 class="jupyterlab-header-title">The Complete Workspace</h2>
-                    <p class="jupyterlab-header-subhead">for writing code, analyzing data, and sharing results.</p>
+                <img src="assets/jupyterlab_white.svg" class="lab-header-logo"/>
+                <div class="col-xs-12 lab-header">
+                    <h2 class="lab-header-title">The Complete Workspace</h2>
+                    <p class="lab-header-subhead">for writing code, analyzing data, and sharing results.</p>
                 </div>
                 <div>
                     <div class="lab-loading-screen">
@@ -33,23 +33,175 @@ navbar_gray: false
                         </div>
                     </div>
                     <div class="lab-loading-screen-bg"></div>
-                    <img src="assets/lab-header-preview.png" class="jupyterlab-header-preview"/>
+                    <img src="assets/lab-header-preview.png" class="lab-header-preview"/>
+                </div>
+            </div>
+            <div class="stars"></div>
+            <div class="twinkling"></div>
+        </div>
+    </div>
+</section>
+<div class="lab-content-wrapper">
+    <section>
+        <div class="section-white top-section-border">
+            <div class="container">
+                <div class="row lab-overview">
+                    <div class="col-sm-12 lab-overview-desc">
+                        <h4>JupyterLab was created to be the all-in-one workspace for data science, scientific computing, and analytical research. It provides the power, speed and flexibility to get more work done.</h4>
+                    </div>
+                    <div class="lab-overview-features">
+                        <div class="col-xs-4 lab-overview-feature">
+                            <img src="./assets/jupyterlab-everyone-icon.png"/>
+                            <h5 class="lab-overview-feature-title">Made for everyone</h5>
+                        </div>
+                        <div class="col-xs-4 lab-overview-feature">
+                            <img src="./assets/jupyterlab-extensible-icon.png"/>
+                            <h5 class="lab-overview-feature-title">Extensible</h5>
+                        </div>
+                        <div class="col-xs-4 lab-overview-feature">
+                            <img src="./assets/jupyterlab-customize-icon.png"/>
+                            <h5 class="lab-overview-feature-title">Customizable</h5>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<section id="community">
-    <div class="section-white top-section-border">
-        
-    </div>
-</section>
-<section id="steering-council">
-    <div class="section-grey">
-        <div class="container">
-            <div class="row">
-                
+    </section>
+    <section>
+        <div class="section-grey">
+            <div class="container">
+                <div class="row lab-docpanel-overview">
+                    <div class="col-sm-5">
+                        <img src="./assets/jupyterlab-docpanel-head-img.svg"/>
+                        <h3 class="section-header section-header-left">Docpanel</h3>
+                        <h5 class="lab-docpanel-desc">In JupyterLab, everything you do is held in one place: the docpanel.</h5>
+                        <h5 class="lab-docpanel-desc">Drag and drop documents to customize your workspace to make it the best for what you do.</h5>
+                        <h5 class="lab-docpanel-desc">Need to pick up where you last started?
+                            No problem, JupyterLab and the docpanel remember your previous session to get you up and running from launch.
+                        </h5>
+                    </div>
+                    <div class="col-sm-7">
+                        <img class="lab-docpanel-img" src="./assets/jupyterlab-docpanel-img.png"/>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+    <section>
+        <div class="section-dark-grey">
+            <div class="container">
+                <div class="row">
+                    <img src="./assets/jupyterlab-extentions-section-icon.svg" class="section-icon img-responsive"/>
+                    <h3 class="col-sm-12 section-header">Extensions</h3>
+                    <p class="col-sm-12 support-paragraph">Extensions are the easiest way to tailor the JupyterLab experience. Find new extensions
+                    through the open source community or even build your own. JupyterLab includes a variety of extensions so that you can hit the ground running.</p>
+                    <div class="lab-ext-preview-viewer col-sm-12">
+                        <div class="lab-ext-preview">
+                            <div id="tab-1" class="lab-ext-preview-content ext-active">
+                                <img src="./assets/jupyterlab-page/extensions/file-browser-preview.png" class="lab-ext-preview-img">
+                                <div class="lab-ext-preview-about">
+                                    <div class="lab-ext-preview-about-head">
+                                        <img src="./assets/jupyterlab-page/extensions/file-browser-icon.svg" class="lab-ext-preview-about-icon"/>
+                                        <h4 class="lab-ext-preview-about-title">File Browser</h4>
+                                    </div>
+                                    <h5 class="lab-ext-preview-about-desc">Organizing and accessing your files has never been easier. Quickly find files, see running notebooks, and distinguish between different file types at a glance.</h5>
+                                </div>
+                            </div>
+                            <div id="tab-2" class="lab-ext-preview-content">
+                                <img src="./assets/jupyterlab-page/extensions/git-plugin-preview.png" class="lab-ext-preview-img">
+                                <div class="lab-ext-preview-about">
+                                    <div class="lab-ext-preview-about-head">
+                                        <img src="./assets/jupyterlab-page/extensions/git-icon.svg" class="lab-ext-preview-about-icon"/>
+                                        <h4 class="lab-ext-preview-about-title">Git</h4>
+                                    </div>
+                                    <h5 class="lab-ext-preview-about-desc">Version control done right. The Git plugin for JupyterLab provides an easy to use interface to help you interact with your latest changes. Navigate to repos through the built-in file browser and the Git plugin will do the rest!</h5>
+                                </div>
+                            </div>
+                            <div id="tab-3" class="lab-ext-preview-content">
+                                <img src="./assets/jupyterlab-page/extensions/command-pallete-preview.png" class="lab-ext-preview-img">
+                                <div class="lab-ext-preview-about">
+                                    <div class="lab-ext-preview-about-head">
+                                        <img src="./assets/jupyterlab-page/extensions/command-pallete-icon.svg" class="lab-ext-preview-about-icon"/>
+                                        <h4 class="lab-ext-preview-about-title">Command Pallete</h4>
+                                    </div>
+                                    <h5 class="lab-ext-preview-about-desc">Take control of your development environment. The command pallete was built to help you find what you need. Open applications, access shortcuts, and much more.</h5>
+                                </div>
+                            </div>
+                            <div id="tab-4" class="lab-ext-preview-content">
+                                <img src="./assets/jupyterlab-page/extensions/running-sessions-preview.png" class="lab-ext-preview-img">
+                                <div class="lab-ext-preview-about">
+                                    <div class="lab-ext-preview-about-head">
+                                        <img src="./assets/jupyterlab-page/extensions/running-icon.svg" class="lab-ext-preview-about-icon"/>
+                                        <h4 class="lab-ext-preview-about-title">Running Sessions</h4>
+                                    </div>
+                                    <h5 class="lab-ext-preview-about-desc">Organizing and accessing your files has never been easier. Quickly find files, see running notebooks, and distinguish between different file types at a glance.</h5>
+                                </div>
+                            </div>
+                            <div id="tab-5" class="lab-ext-preview-content">
+                                <img src="./assets/jupyterlab-page/extensions/file-browser-preview.png" class="lab-ext-preview-img">
+                                <div class="lab-ext-preview-about">
+                                    <div class="lab-ext-preview-about-head">
+                                        <img src="./assets/jupyterlab-page/extensions/cell-tools-icon.svg" class="lab-ext-preview-about-icon"/>
+                                        <h4 class="lab-ext-preview-about-title">Cell Tools</h4>
+                                    </div>
+                                    <h5 class="lab-ext-preview-about-desc">Organizing and accessing your files has never been easier. Quickly find files, see running notebooks, and distinguish between different file types at a glance.</h5>
+                                </div>
+                            </div>
+                            <div id="tab-6" class="lab-ext-preview-content">
+                                <img src="./assets/jupyterlab-page/extensions/file-browser-preview.png" class="lab-ext-preview-img">
+                                <div class="lab-ext-preview-about">
+                                    <div class="lab-ext-preview-about-head">
+                                        <img src="./assets/jupyterlab-page/extensions/tab-manager-icon.svg" class="lab-ext-preview-about-icon"/>
+                                        <h4 class="lab-ext-preview-about-title">Tab Manager</h4>
+                                    </div>
+                                    <h5 class="lab-ext-preview-about-desc">Organizing and accessing your files has never been easier. Quickly find files, see running notebooks, and distinguish between different file types at a glance.</h5>
+                                </div>
+                            </div>
+                            <div id="tab-7" class="lab-ext-preview-content">
+                                <img src="./assets/jupyterlab-page/extensions/file-browser-preview.png" class="lab-ext-preview-img">
+                                <div class="lab-ext-preview-about">
+                                    <div class="lab-ext-preview-about-head">
+                                        <img src="./assets/jupyterlab-page/extensions/launcher-icon.svg" class="lab-ext-preview-about-icon"/>
+                                        <h4 class="lab-ext-preview-about-title">Launcher</h4>
+                                    </div>
+                                    <h5 class="lab-ext-preview-about-desc">Organizing and accessing your files has never been easier. Quickly find files, see running notebooks, and distinguish between different file types at a glance.</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="lab-ext-preview-nav">
+                            <div data-tab="tab-1" class="lab-ext-preview-nav-item nav-active">
+                                <img class="lab-ext-preview-nav-item-icon" src="./assets/jupyterlab-page/extensions/file-browser-icon.svg"/>
+                                <p class="lab-ext-preview-nav-item-title">File Browser</p>
+                            </div>
+                            <div data-tab="tab-2" class="lab-ext-preview-nav-item">
+                                <img class="lab-ext-preview-nav-item-icon" src="./assets/jupyterlab-page/extensions/git-icon.svg"/>
+                                <p class="lab-ext-preview-nav-item-title">Git</p>
+                            </div>
+                            <div data-tab="tab-3" class="lab-ext-preview-nav-item">
+                                <img class="lab-ext-preview-nav-item-icon" src="./assets/jupyterlab-page/extensions/command-pallete-icon.svg"/>
+                                <p class="lab-ext-preview-nav-item-title">Command Pallete</p>
+                            </div>
+                            <div data-tab="tab-4" class="lab-ext-preview-nav-item">
+                                <img class="lab-ext-preview-nav-item-icon" src="./assets/jupyterlab-page/extensions/running-icon.svg"/>
+                                <p class="lab-ext-preview-nav-item-title">Running</p>
+                            </div>
+                            <div data-tab="tab-5" class="lab-ext-preview-nav-item">
+                                <img class="lab-ext-preview-nav-item-icon" src="./assets/jupyterlab-page/extensions/cell-tools-icon.svg"/>
+                                <p class="lab-ext-preview-nav-item-title">Cell Tools</p>
+                            </div>
+                            <div data-tab="tab-6" class="lab-ext-preview-nav-item">
+                                <img class="lab-ext-preview-nav-item-icon" src="./assets/jupyterlab-page/extensions/tab-manager-icon.svg"/>
+                                <p class="lab-ext-preview-nav-item-title">Tab Manager</p>
+                            </div>
+                            <div data-tab="tab-7" class="lab-ext-preview-nav-item">
+                                <img class="lab-ext-preview-nav-item-icon" src="./assets/jupyterlab-page/extensions/launcher-icon.svg"/>
+                                <p class="lab-ext-preview-nav-item-title">Launcher</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+

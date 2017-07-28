@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="51px" viewBox="0 0 51 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 20</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-900.000000, -2437.000000)">
+            <g id="Group-52" transform="translate(-49.653832, 0.000000)">
+                <g id="Group-33" transform="translate(237.000000, 1769.000000)">
+                    <g id="Group-26" transform="translate(0.000000, 646.160034)">
+                        <g id="Group-50" transform="translate(34.500000, 21.000000)">
+                            <g id="Group-24" transform="translate(676.000000, 0.000000)">
+                                <g id="Group-20" transform="translate(2.500000, 0.839759)">
+                                    <g id="Group-21">
+                                        <g id="Group-6" transform="translate(0.338557, 0.321729)" fill="#757575">
+                                            <rect id="Rectangle-8" x="0" y="0" width="50" height="50"></rect>
+                                        </g>
+                                        <g id="launcher" transform="translate(10.655978, 8.571025)" fill-rule="nonzero" fill="#FFFFFF">
+                                            <polygon id="Shape" points="24.4782609 17.1304348 24.4782609 24.0869565 29.2608696 24.0869565"></polygon>
+                                            <polygon id="Shape" points="5.34782609 16.9130435 5.34782609 24.0869565 0.565217391 24.0869565"></polygon>
+                                            <path d="M14.9130435,0.173913043 C24.2608696,12.3478261 21.8695652,24.0869565 21.8695652,24.0869565 L7.95652174,24.0869565 C7.95652174,24.0869565 5.56521739,12.3478261 14.9130435,0.173913043 Z M14.9130435,18.2173913 C16.3537863,18.2173913 17.5217391,17.0494385 17.5217391,15.6086957 C17.5217391,14.1679528 16.3537863,13 14.9130435,13 C13.4723007,13 12.3043478,14.1679528 12.3043478,15.6086957 C12.3043478,17.0494385 13.4723007,18.2173913 14.9130435,18.2173913 Z" id="Combined-Shape"></path>
+                                            <path d="M14.9130435,33.6521739 C14.9130435,33.6521739 9.04347826,26.4782609 14.9130435,26.4782609 C20.7826087,26.4782609 14.9130435,33.6521739 14.9130435,33.6521739 Z" id="Shape"></path>
+                                            <polygon id="Shape" points="29.2582611 28.8625648 29.2582611 24.0799561 24.4782609 24.0799561"></polygon>
+                                            <polygon id="Shape" points="0.565217391 28.8625648 5.3452176 24.0799561 0.565217391 24.0799561"></polygon>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

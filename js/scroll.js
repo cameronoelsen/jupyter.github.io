@@ -7,7 +7,7 @@ $(document).ready(function() {
                 $('.icon-bar').removeClass('white-icon-bar');
     }
     $(window).bind('resize', function() {
-        if (window.location.pathname == '/' || window.location.pathname == '/index.html') {
+        if (window.location.pathname == '/' || window.location.pathname == '/index.html' || window.location.pathname == '/jupyterlab.html') {
             if (window.outerWidth < 768) {
                 $('.navbar').removeClass('transparent-navbar');
                 $('.navbar').addClass('navbar-white');
@@ -28,8 +28,8 @@ $(document).ready(function() {
             $(".navbar").addClass("navbar-scroll");
             // $(".navbar").stop().animate({opacity: 0});
 
-            // For JupyterCon Custom Navbar
-            if (window.location.pathname == '/' || window.location.pathname == '/index.html') {
+            // For Transparent Custom Navbar
+            if (window.location.pathname == '/' || window.location.pathname == '/index.html' || window.location.pathname == '/jupyterlab.html') {
                 $('.navbar').removeClass('transparent-navbar');
                 $('.tab').addClass('black-tab');
                 document.getElementById('jupyter-nav-logo').src = '/assets/nav_logo.svg';
@@ -41,7 +41,7 @@ $(document).ready(function() {
             // $(".navbar").stop().animate({opacity: 1});
 
             // For JupyterCon Custom Navbar
-            if (window.location.pathname == '/' || window.location.pathname == '/index.html') {
+            if (window.location.pathname == '/' || window.location.pathname == '/index.html' || window.location.pathname == '/jupyterlab.html') {
                 if (window.outerWidth < 768) {
                     $('.navbar').removeClass('transparent-navbar');
                 }
