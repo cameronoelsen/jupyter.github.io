@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="72px" viewBox="0 0 73 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>texteditor</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-825.000000, -3478.000000)">
+            <g id="Group-52" transform="translate(-49.653832, 0.000000)">
+                <g id="Group-54" transform="translate(235.500000, 3371.000000)">
+                    <g id="Text-Editor-Card" transform="translate(549.500000, 65.000000)">
+                        <g id="texteditor" transform="translate(86.000000, 38.000000)">
+                            <rect id="Rectangle-34" fill-opacity="0" fill="#D8D8D8" x="0.653831546" y="0" width="80" height="80"></rect>
+                            <g id="Group-71" transform="translate(4.153832, 4.000000)">
+                                <polygon id="Shape" fill="#FFFFFF" fill-rule="nonzero" points="51.57 7.56 51.57 7.56 51.57 10.665 51.57 19.845 61.155 19.845 64.35 19.845 64.35 19.845"></polygon>
+                                <g id="Group" fill-rule="nonzero" fill="#607D8B">
+                                    <polygon id="Shape" points="0.135 0.135 0 72 72 72 72 27 45 0"></polygon>
+                                </g>
+                                <rect id="Rectangle-path" x="13.5" y="30.375" width="45" height="29.205"></rect>
+                                <polygon id="Shape" fill="#FFFFFF" fill-rule="nonzero" points="47.295 9.09 62.91 24.75 47.295 24.705"></polygon>
+                                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="13.5" y="54" width="45" height="4.5"></rect>
+                                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="13.5" y="40.5" width="45" height="4.545"></rect>
+                                <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="13.5" y="27.045" width="22.5" height="4.5"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

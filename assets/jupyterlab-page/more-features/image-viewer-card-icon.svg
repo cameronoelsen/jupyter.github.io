@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="73px" height="72px" viewBox="0 0 73 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 75</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-826.000000, -3801.000000)">
+            <g id="Group-52" transform="translate(-49.653832, 0.000000)">
+                <g id="Group-54" transform="translate(235.500000, 3371.000000)">
+                    <g id="Image-Viewer-Card" transform="translate(549.500000, 385.000000)">
+                        <g id="Group-75" transform="translate(87.000000, 41.000000)">
+                            <rect id="Rectangle-37" fill-opacity="0" fill="#D8D8D8" x="0" y="0" width="80" height="80"></rect>
+                            <g id="Group-74" transform="translate(3.500000, 4.000000)" fill-rule="nonzero">
+                                <rect id="Rectangle-path" fill="#FFFFFF" x="9.2" y="3.2" width="56.2700005" height="61.2700005"></rect>
+                                <path d="M0.75,0.204545455 L0.75,71.7954545 L72.3409091,71.7954545 L72.75,0.204545455 C72.75,0.204545455 0.75,0.204545455 0.75,0.204545455 Z M50.25,9.20454545 C55.1590909,9.20454545 59.25,13.2954545 59.25,18.2045455 C59.25,23.1136364 55.1590909,27.2045455 50.25,27.2045455 C45.3409091,27.2045455 41.25,23.1136364 41.25,18.2045455 C41.25,13.2954545 45.3409091,9.20454545 50.25,9.20454545 Z M9.75,63.2045455 L23.25,27.2045455 L36.75,54.2045455 L45.75,41.1136364 L63.75,63.2045455 L9.75,63.2045455 Z" id="Shape" fill="#3F51B5"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
