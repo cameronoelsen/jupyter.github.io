@@ -56,7 +56,11 @@ $(document).ready(function() {
         }
     });
     
-    //Used to animate a parallax effect for JupyterLab page's notebook section
+    //Used to animate a parallax effect for JupyterLab's notebook section
     $('#lab-notebook-parallax').parallax({imageSrc: './assets/jupyterlab-space-bg.jpeg'});
+    
+    //Used to reveal notebook output on scroll for JupyterLab's notebook section
+    window.sr = ScrollReveal();
+    sr.reveal('.lab-notebook-cell-output-text', {duration: 1000}, 50);
     
 });

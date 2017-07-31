@@ -712,7 +712,7 @@ body {
     align-items: center;
 }
 
-.lab-docpanel-desc {
+.lab-docpanel-desc, lab-collab-about-desc {
     font-weight: 400;
     line-height: 1.64;
     color: #424242;
@@ -1122,6 +1122,60 @@ body {
 
 .lab-feature-card-text {
     margin: 20px 24px 24px 24px;
+}
+
+.lab-collab-preview-img {
+    
+}
+
+.lab-collab-preview-text {
+    text-align: center;
+    margin-top: 32px;
+    font-size: #424242;
+}
+
+.lab-collab-about {
+    padding-left: 68px;
+}
+
+.lab-collab-about-desc {
+    margin-bottom: 16px;
+}
+
+.lab-collab-coming-soon {
+    color: white;
+    background-color: #E37218;
+    padding: 4px 12px;
+    letter-spacing: .2px;
+}
+
+.lab-collab-preview {
+    margin-top: 48px;
+}
+
+.lab-collab-preview-nav {
+    position: relative;
+    left: -20px;
+    list-style: none;
+    margin-top: 48px;
+    padding-left: 0px;
+    border-radius: 2px;
+}
+
+.lab-collab-preview-nav-item {
+    font-size: 20px;
+    padding: 20px;
+    color: #424242;
+    transition: .2s background-color;
+}
+
+.lab-collab-preview-nav-item:hover {
+    cursor: pointer;
+}
+
+.lab-collab-preview-nav-item.nav-active {
+    background-color: #E0E0E0;
+    border-radius: 2px;
 }
 
 /* Bootstrap Breakpoint Media Queries */
