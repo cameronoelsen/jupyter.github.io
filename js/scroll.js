@@ -18,7 +18,11 @@ $(document).ready(function() {
             else {
                 $('.navbar').addClass('transparent-navbar');
                 $('.tab').removeClass('black-tab');
-                document.getElementById('jupyter-nav-logo').src = '/assets/white_nav_logo.svg';
+                if (window.location.pathname == '/jupyterlab.html') {
+                    document.getElementById('jupyter-nav-logo').src = '/assets/nav-logo-white-type.svg';
+                } else {
+                    document.getElementById('jupyter-nav-logo').src = '/assets/white_nav_logo.svg';   
+                }
                 $('.icon-bar').addClass('white-icon-bar');
             }
         }
@@ -46,10 +50,13 @@ $(document).ready(function() {
                     $('.navbar').removeClass('transparent-navbar');
                 }
                 else {
-                    console.log(window.location.pathname);
                     $('.navbar').addClass('transparent-navbar');
                     $('.tab').removeClass('black-tab');
-                    document.getElementById('jupyter-nav-logo').src = '/assets/white_nav_logo.svg';
+                    if (window.location.pathname == '/jupyterlab.html') {
+                        document.getElementById('jupyter-nav-logo').src = '/assets/nav-logo-white-type.svg';
+                    } else {
+                        document.getElementById('jupyter-nav-logo').src = '/assets/white_nav_logo.svg';   
+                    }
                     $('.icon-bar').addClass('white-icon-bar');
                 }
             }
@@ -57,10 +64,10 @@ $(document).ready(function() {
     });
     
     //Used to animate a parallax effect for JupyterLab's notebook section
-    $('#lab-notebook-parallax').parallax({imageSrc: './assets/jupyterlab-space-bg.jpeg'});
+//    $('#lab-notebook-parallax').parallax({imageSrc: './assets/jupyterlab-space-bg.jpeg'});
     
     //Used to reveal notebook output on scroll for JupyterLab's notebook section
     window.sr = ScrollReveal();
-    sr.reveal('.lab-notebook-cell-output-text', {duration: 1000}, 50);
+    sr.reveal('.lab-notebook-cell-output-text', {duration: 1000, delay: 350, reset: true}, 50);
     
 });

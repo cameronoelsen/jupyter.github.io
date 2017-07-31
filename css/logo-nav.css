@@ -1010,6 +1010,7 @@ body {
 #lab-notebook-parallax {
     padding-top: 100px;
     padding-bottom: 0px;
+    background-color: transparent;
 }
 
 .lab-notebook-paper {
@@ -1122,6 +1123,14 @@ body {
 
 .lab-feature-card-text {
     margin: 20px 24px 24px 24px;
+}
+
+.lab-collab-preview {
+    display: none;
+}
+
+.lab-collab-preview.preview-active {
+    display: block;
 }
 
 .lab-collab-preview-img {

@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    //Preview section for extension section on JupyterLab page
    $('div.lab-ext-preview-nav div.lab-ext-preview-nav-item').click(function() {
        var previous_tab_id = $('.lab-ext-preview-nav-item.nav-active').attr('data-tab');
        var current_tab_id = $(this).attr('data-tab');
@@ -32,5 +33,16 @@ $(document).ready(function() {
        
        $('div.lab-ext-preview-nav div.lab-ext-preview-nav-item').removeClass('nav-active');
        $(this).addClass('nav-active');
-   })
+   });
+    
+    $('ul.lab-collab-preview-nav li.lab-collab-preview-nav-item').click(function() {
+        var current_tab_id = $(this).attr('data-tab');
+        
+        $('.lab-collab-preview-nav-item').removeClass('nav-active');
+        $(this).addClass('nav-active');
+        
+        $('div.lab-collab-preview').removeClass('preview-active');
+        $('#collab-preview-' + current_tab_id).addClass('preview-active');
+        
+    });
 });

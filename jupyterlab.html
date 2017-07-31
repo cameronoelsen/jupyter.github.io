@@ -51,15 +51,15 @@ navbar_gray: false
                     </div>
                     <div class="lab-overview-features">
                         <div class="col-xs-4 lab-overview-feature">
-                            <img src="./assets/jupyterlab-everyone-icon.png"/>
+                            <img src="./assets/jupyterlab-everyone-icon.svg"/>
                             <h5 class="lab-overview-feature-title">Made for everyone</h5>
                         </div>
                         <div class="col-xs-4 lab-overview-feature">
-                            <img src="./assets/jupyterlab-extensible-icon.png"/>
+                            <img src="./assets/jupyterlab-extensible-icon.svg"/>
                             <h5 class="lab-overview-feature-title">Extensible</h5>
                         </div>
                         <div class="col-xs-4 lab-overview-feature">
-                            <img src="./assets/jupyterlab-customize-icon.png"/>
+                            <img src="./assets/jupyterlab-customize-icon.svg"/>
                             <h5 class="lab-overview-feature-title">Customizable</h5>
                         </div>
                     </div>
@@ -204,7 +204,7 @@ navbar_gray: false
         </div>
     </section>
     <section>
-        <div id="lab-notebook-parallax" lass="section-white">
+        <div id="lab-notebook-parallax" data-parallax="scroll" data-image-src="./assets/jupyterlab-space-bg.jpeg" data-natural-width="1200" data-natural-height="800" data-bleed="100" class="section-white">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -301,7 +301,15 @@ navbar_gray: false
         <div class="section-white">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 lab-collab-preview">
+                    <div id="collab-preview-tab-1" class="col-md-6 lab-collab-preview preview-active">
+                        <img class="lab-collab-preview-img img-responsive" src="./assets/jupyterlab-page/collaboration/share-files.png"/>
+                        <p class="lab-collab-preview-text">Share documents through JupyterLab’s Google Drive extension</p>
+                    </div>
+                    <div id="collab-preview-tab-2" class="col-md-6 lab-collab-preview">
+                        <img class="lab-collab-preview-img img-responsive" src="./assets/jupyterlab-page/collaboration/share-files.png"/>
+                        <p class="lab-collab-preview-text">Work with others in real-time through JupyterLab no matter where you are</p>
+                    </div>
+                    <div id="collab-preview-tab-3" class="col-md-6 lab-collab-preview">
                         <img class="lab-collab-preview-img img-responsive" src="./assets/jupyterlab-page/collaboration/share-files.png"/>
                         <p class="lab-collab-preview-text">Share documents through JupyterLab’s Google Drive extension</p>
                     </div>
@@ -310,10 +318,21 @@ navbar_gray: false
                         <h5 class="lab-collab-about-desc">Create something great together using the built-in Google Drive extension and chat application</h5>
                         <span class="lab-collab-coming-soon">COMING SOON</span>
                         <ul class="lab-collab-preview-nav">
-                            <li class="lab-collab-preview-nav-item nav-active">Share files through Google Drive</li>
-                            <li class="lab-collab-preview-nav-item">Work in real-time with others</li>
-                            <li class="lab-collab-preview-nav-item">Per-document chat</li>
+                            <li data-tab="tab-1" class="lab-collab-preview-nav-item nav-active">Share files through Google Drive</li>
+                            <li data-tab="tab-2" class="lab-collab-preview-nav-item">Work in real-time with others</li>
+                            <li data-tab="tab-3" class="lab-collab-preview-nav-item">Per-document chat</li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="section-grey">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        
                     </div>
                 </div>
             </div>

@@ -16,7 +16,7 @@
                     {% endif %}
                 </button>
                 <a class="navbar-brand" href="{{site.baseurl}}/index.html">
-                    <img id="jupyter-nav-logo" class="navbar-logo" src="{% if page.url == '/' or page.url == '/index.html' or page.url == '/jupyterlab.html' %}{{site.baseurl}}/assets/white_nav_logo.svg{% else %}{{site.baseurl}}/assets/nav_logo.svg{%endif%}" alt="Jupyter logo">
+                    <img id="jupyter-nav-logo" class="navbar-logo" src="{% if page.url == '/' or page.url == '/index.html' %}{{site.baseurl}}/assets/white_nav_logo.svg{% else if page.url == '/jupyterlab.html' %}{{site.baseurl}}/assets/nav-logo-white-type.svg{% else %}{{site.baseurl}}/assets/nav_logo.svg{%endif%}" alt="Jupyter logo">
                 </a>
             </div>
             <div class="blur"></div>
