@@ -210,6 +210,8 @@ body {
 .section-icon {
     display: block;
     margin: 0 auto;
+    height: 60px;
+    width: 60px;
 }
 /* Header for each section */
 .section-header {
@@ -1185,6 +1187,45 @@ body {
 .lab-collab-preview-nav-item.nav-active {
     background-color: #E0E0E0;
     border-radius: 2px;
+}
+
+.lab-native {
+    background-image: url("../assets/lab-native-bg-img.png");
+    background-size: cover;
+    background-position: center 168px;
+    background-repeat: no-repeat;
+    max-width: 1200px;
+}
+
+.lab-native-img {
+    max-width: 800px;
+    margin: auto;
+}
+
+.lab-native-features {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 56px;
+}
+
+.lab-native-feature {
+    text-align: center;
+    margin-top: 48px;
+}
+
+.lab-native-feature-header {
+    margin-top: 24px;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+.lab-native-download {
+    display: flex;
+    margin-top: 24px;
+}
+
+.lab-native-download-btn {
+    margin: 0 auto;
 }
 
 /* Bootstrap Breakpoint Media Queries */

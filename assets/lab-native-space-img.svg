@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="71px" height="60px" viewBox="0 0 71 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>seat-legroom-extra</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-801.000000, -5744.000000)">
+            <g id="seat-legroom-extra" transform="translate(791.500000, 5729.000000)">
+                <rect id="Rectangle-40" x="0.5" y="0" width="90" height="90"></rect>
+                <path d="M16.6666667,45 L16.6666667,15 L10,15 L10,45 C10,54.2047458 17.4619208,61.6666667 26.6666667,61.6666667 L46.6666667,61.6666667 L46.6666667,55 L26.6666667,55 C21.1438192,55 16.6666667,50.5228475 16.6666667,45 L16.6666667,45 Z M79.4333333,62.4666667 C78.1666667,60 75.1333333,59.2333333 72.6666667,60.3666667 L69.0333333,62.0333333 L57.6666667,38.7666667 C56.5333333,36.5 54.2333333,35 51.6666667,35 L40,35 L40,15 L20,15 L20,41.6666667 C20,47.1895142 24.4771525,51.6666667 30,51.6666667 L53.3333333,51.6666667 L64.7,75 L77.1,69.3333333 C79.6666667,68.1333333 80.7666667,65 79.4333333,62.4666667 Z" id="Shape" fill="#424242" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
