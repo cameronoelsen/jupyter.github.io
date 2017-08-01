@@ -881,14 +881,14 @@ body {
 }
 
 .lab-ext-preview-viewer {
-    height: 528px;
+    height: 100%;
     margin-top: 24px;
 }
 
 .lab-ext-preview {
     display: flex;
     flex-flow: row;
-    height: 404px;
+    height: 100%;
     background-color: #757575;
     overflow: hidden;
 }
@@ -1405,6 +1405,9 @@ body {
         top: 198px;
         height: 384px;
     }
+    .lab-ext-preview-img {
+        margin-right: 20px;   
+    }
     
 }
 /* Small devices (tablets, 768px and up) */
@@ -1481,6 +1484,10 @@ body {
     .jupytercon-jumbotron {
         margin-right: 0px;
     }
+    .lab-content-wrapper .container {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
     .lab-overview-features li:not(:first-child) {
         margin-top: 20px;
     }
@@ -1513,6 +1520,46 @@ body {
         width: 90%;
         margin-top: -186px;
         max-width: 475px;
+    }
+    .lab-docpanel-header {
+        margin-bottom: 12px;
+    }
+    .lab-docpanel-img {
+        height: 320px;
+        margin-left: 0px;
+    }
+    .lab-ext-preview-viewer {
+        padding: 0px;    
+    }
+    .lab-ext-preview-nav-item {
+        min-width: 104px;
+    }
+    .lab-ext-preview-content.ext-active {
+        display: block;
+        width: 100%;
+        padding-top: 28px;
+    }
+    .lab-ext-preview-img {
+        display: block;
+        margin: 0 auto;   
+    }
+    .lab-ext-preview-about {
+        display: block;
+        margin: 0px 28px;
+    }
+    .lab-ext-preview-about-head {
+        margin: 0 auto;
+        margin-top: 12px;
+    }
+    .lab-ext-preview-about-desc {
+        padding-top: 12px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .lab-ext-preview-nav {
+        overflow-x: scroll;
+        overflow-y: hidden;
+        height: 124px;
     }
 }
 /* Extra small devices (these are mostly fixes to make sure elements act correctly to look good) */
