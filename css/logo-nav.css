@@ -857,12 +857,12 @@ body {
 }
 
 .stars {
-  background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  background: #00283F url('../assets/lab-stars.png') repeat top center;
   z-index:-2;
 }
 
 .twinkling{
-  background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  background:transparent url('../assets/lab-twinkling.png') repeat top center;
   z-index:-2;
 
   -moz-animation:move-twinkle-back 600s linear infinite;
