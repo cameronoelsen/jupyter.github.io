@@ -631,7 +631,7 @@ body {
 /* Styling for JupyterLab page */
 
 .lab-jumbotron {
-    height: 500px;
+    height: 650px;
     color: white;
     position: relative;
     top: -70px;
@@ -643,36 +643,29 @@ body {
 
 .lab-jumbotron h2 {
     margin-bottom: 4px;
+    font-size: 28px;
 }
 
 .lab-header {
     position: relative;
-    top: 100px;
+    top: 400px;
     z-index: -1;
     animation: showHeaderText 1s ease 3s forwards;
 }
 
 .lab-header-logo {
-    visibility:hidden;
-    width: 328px;
-    display: block;
-    position: relative;
-    margin: auto;
-    z-index: -1;
-    top: 24px;
+    width: 320px;
 }
 
 .lab-header-subhead {
     color: #E0E0E0;
     /* Using this font size to make the header and subhead the same width */
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .lab-header-preview {
-    width: 800px;
-    padding-top: 16px;
     z-index: 1;
-    margin-top: -276px;
+    margin-top: -175px;
 }
 
 .lab-loading-screen {
@@ -688,30 +681,13 @@ body {
     margin: auto;
     position: relative;
     width: 800px;
-    height: 317px;
-    top: 56px;
+    height: 372px;
+    top: 213px;
     border-radius: 8px;
-}
-
-.lab-wordmark {
-    animation: fade 1s ease 2s forwards;
-    position: relative;
-    width: 372px;
-    top: 212px;
-    left: 52px;
 }
 
 .lab-content-wrapper {
     overflow-x: hidden;
-}
-
-.lab-content-wrapper .container {
-    width: 832px;
-}
-
-.lab-docpanel-overview {
-    display: flex;
-    align-items: center;
 }
 
 .lab-docpanel-desc, lab-collab-about-desc {
@@ -747,13 +723,13 @@ body {
     animation: fade 1s ease 2s forwards;
     background-image: url(../assets/favicon.svg);
     background-repeat: no-repeat;
-    background-size: 80px;
+    background-size: 100px;
     position: absolute;
-    background-position: left;
+    background-position: center;
     width: 100%;
     height: 100%;
     z-index: 1;
-    margin-left: 156px;
+    margin-top: 56px;
 }
 
 .planet {
@@ -768,8 +744,8 @@ body {
     animation: orbit 2s ease .5s;
     width: 200px;
     height: 140px;
-    margin-top: -36px;
-    margin-left: -248px;
+    margin-top: 4px;
+    margin-left: -56px;
 }
 
 #moon2.orbit {
@@ -777,8 +753,8 @@ body {
     animation: orbit 2s ease .5s;
     width: 132px;
     height: 180px;
-    margin-top: -47px;
-    margin-left: -296px;
+    margin-top: -8px;
+    margin-left: -80px;
 }
 
 #moon3.orbit {
@@ -788,8 +764,8 @@ body {
     animation: orbit 2s ease .5s;
     width: 220px;
     height: 166px;
-    margin-top: -100px;
-    margin-left: -250px;
+    margin-top: -40px;
+    margin-left: -48px;
 }
 
 #moon1 .planet {
@@ -892,6 +868,8 @@ body {
 .lab-overview-features {
     margin: 0 auto;
     max-width: 600px;
+    list-style: none;
+    padding-left: 0px;
 }
 
 .lab-overview-feature {
@@ -1283,6 +1261,13 @@ body {
         float: right;
         margin-top: 15px;
     }
+    .lab-jumbotron .lab-header-preview {
+        width: 800px;
+        padding-top: 16px;
+    }
+    .lab-content-wrapper .container {
+        width: 832px;
+    }
 }
 @media (max-width: 992px) {
     p {
@@ -1404,10 +1389,26 @@ body {
     .navbar-text {
         margin-left: 0px;
     }
+    #universe {
+        width: 700px;
+        margin-left: 25px;
+    }
+    .lab-header-preview {
+        width: 700px;
+        margin-top: -186px;
+    }
+    .lab-content-wrapper.container {
+        width: 700px;
+    }
+    .lab-loading-screen-bg {
+        width: 700px;
+        top: 198px;
+        height: 384px;
+    }
+    
 }
 /* Small devices (tablets, 768px and up) */
 @media(min-width:768px) {
-
     .navbar-fixed-top .navbar-brand {
         padding: 15px 0;
     }
@@ -1416,6 +1417,10 @@ body {
     }
     .navbar-toggle {
         margin-top: 20px;
+    }
+    .lab-docpanel-overview {
+        display: flex;
+        align-items: center;
     }
 }
 @media (max-width: 768px) {
@@ -1476,6 +1481,39 @@ body {
     .jupytercon-jumbotron {
         margin-right: 0px;
     }
+    .lab-overview-features li:not(:first-child) {
+        margin-top: 20px;
+    }
+    .lab-jumbotron {
+        height: 440px;   
+    }
+    .lab-loading-screen {
+        visibility: hidden;
+    }
+    .lab-loading-screen-bg {
+        visibility: hidden;
+    }
+    .lab-header {
+        animation: showHeaderText 1s ease 1s forwards;
+    }
+    .lab-header-logo {
+        width: 75%;
+        max-width: 300px;
+    }
+    .lab-jumbotron h2 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .lab-header-subhead {
+        font-size: 16px;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .lab-header-preview {
+        width: 90%;
+        margin-top: -186px;
+        max-width: 475px;
+    }
 }
 /* Extra small devices (these are mostly fixes to make sure elements act correctly to look good) */
 @media (min-width: 509px) {
@@ -1519,10 +1557,10 @@ body {
 
 @keyframes showHeaderText {
     0% {
-        top: 100px;
+        top: 400px;
     }
     100% {
-        top: -68px;
+        top: 28px;
     }
 }
 
