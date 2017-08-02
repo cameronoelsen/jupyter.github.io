@@ -17,6 +17,11 @@ $(document).ready(function() {
                 document.getElementById('jupyter-nav-logo').src = '/assets/nav_logo.svg';
                 $('.icon-bar').removeClass('white-icon-bar');
             }
+            else if (window.outerWidth > 768 && $(this).scrollTop() > 0) {
+                $('.navbar').removeClass('transparent-navbar');
+                document.getElementById('jupyter-nav-logo').src = '/assets/nav_logo.svg';
+                $('.icon-bar').addClass('white-icon-bar');
+            }   
             else {
                 $('.navbar').addClass('transparent-navbar');
                 $('.tab').removeClass('black-tab');

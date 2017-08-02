@@ -1487,6 +1487,10 @@ body {
         to {left: -702px;}
     }
     
+    .lab-feature-card {
+        width: 228px;   
+    }
+    
 }
 /* Small devices (tablets, 768px and up) */
 @media(min-width:768px) {
@@ -1638,6 +1642,9 @@ body {
         overflow-x: scroll;
         overflow-y: hidden;
         height: 124px;
+    }
+    .lab-features-card-container {
+        justify-content: space-around;
     }
 }
 /* Extra small devices (these are mostly fixes to make sure elements act correctly to look good) */
