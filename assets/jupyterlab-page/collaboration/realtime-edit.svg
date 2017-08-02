@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="418px" height="337px" viewBox="0 0 418 337" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>Collaboration paper</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="417" height="336"></rect>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-4" x="8.65383155" y="12.5" width="400" height="326"></rect>
+        <filter x="-2.0%" y="-2.1%" width="104.0%" height="104.9%" filterUnits="objectBoundingBox" id="filter-5">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="1" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="89.0122768%" id="linearGradient-6">
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-7" x="69.6538315" y="5.5" width="291" height="30"></rect>
+        <filter x="-0.6%" y="-5.8%" width="101.2%" height="111.7%" filterUnits="objectBoundingBox" id="filter-8">
+            <feGaussianBlur stdDeviation="1" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="0" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.392156863   0 0 0 0 0.709803922   0 0 0 0 0.964705882  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-179.000000, -4273.000000)">
+            <g id="Group-52" transform="translate(-49.653832, 0.000000)">
+                <g id="Real-time-collaboration-content" transform="translate(229.000000, 4257.000000)">
+                    <g id="Work-in-real-time-tab-content" transform="translate(0.000000, 16.500000)">
+                        <g id="Collaboration-paper">
+                            <g id="Paper">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="Notebook-Mask" fill="#FFFFFF" xlink:href="#path-1"></use>
+                                <g id="Notebook-paper" mask="url(#mask-2)">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                                    <use fill="url(#linearGradient-3)" fill-rule="evenodd" xlink:href="#path-4"></use>
+                                    <rect stroke="#BDBDBD" stroke-width="1" x="9.15383155" y="13" width="399" height="325"></rect>
+                                </g>
+                                <g id="Paper-gradient" mask="url(#mask-2)" fill="url(#linearGradient-6)">
+                                    <g transform="translate(-11.000000, 301.000000)" id="Rectangle-43">
+                                        <rect x="0" y="0" width="28" height="35"></rect>
+                                        <rect x="410" y="0" width="27" height="35"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="Second-cell" transform="translate(50.000000, 79.000000)">
+                                <g id="Cell" transform="translate(0.000000, 13.000000)">
+                                    <path d="M8.56469727,10.4558105 L6.94604492,10.4558105 L6.94604492,25.6425781 L8.56469727,25.6425781 L8.56469727,27.6896973 L4.30859375,27.6896973 L4.30859375,8.40869141 L8.56469727,8.40869141 L8.56469727,10.4558105 Z M22.6088867,24.5 L13.1540527,24.5 L13.1540527,22.690918 L17.6386719,17.8730469 C17.9877947,17.4921856 18.2829578,17.1462418 18.5241699,16.8352051 C18.7653821,16.5241684 18.9605705,16.2401136 19.1097412,15.9830322 C19.2589119,15.7259509 19.366821,15.4863292 19.4334717,15.2641602 C19.5001224,15.0419911 19.5334473,14.8261729 19.5334473,14.6166992 C19.5334473,14.3056625 19.4890141,14.0295422 19.4001465,13.7883301 C19.3112789,13.5471179 19.1859139,13.3424081 19.0240479,13.1741943 C18.8621818,13.0059806 18.6685802,12.8774419 18.4432373,12.7885742 C18.2178944,12.6997066 17.9687514,12.6552734 17.6958008,12.6552734 C16.9658167,12.6552734 16.4215106,12.8583964 16.0628662,13.2646484 C15.7042218,13.6709005 15.5249023,14.23901 15.5249023,14.9689941 L12.8684082,14.9689941 C12.8684082,14.3532684 12.9858387,13.7708768 13.2207031,13.2218018 C13.4555676,12.6727267 13.7872293,12.1918966 14.2156982,11.7792969 C14.6441672,11.3666972 15.161496,11.041383 15.7677002,10.8033447 C16.3739044,10.5653064 17.0451623,10.4462891 17.7814941,10.4462891 C18.4860875,10.4462891 19.1097385,10.5446768 19.6524658,10.7414551 C20.1951931,10.9382334 20.649046,11.2143537 21.0140381,11.5698242 C21.3790301,11.9252947 21.6567373,12.3521704 21.847168,12.8504639 C22.0375986,13.3487574 22.1328125,13.899411 22.1328125,14.5024414 C22.1328125,14.9594749 22.0614021,15.3958719 21.9185791,15.8116455 C21.7757561,16.2274191 21.5726332,16.6384257 21.3092041,17.0446777 C21.0457751,17.4509298 20.7299823,17.8651102 20.3618164,18.2872314 C19.9936505,18.7093527 19.5842308,19.1520973 19.1335449,19.6154785 L16.5246582,22.376709 L22.6088867,22.376709 L22.6088867,24.5 Z M27.7124023,8.40869141 L31.9780273,8.40869141 L31.9780273,27.6896973 L27.7124023,27.6896973 L27.7124023,25.6425781 L29.3405762,25.6425781 L29.3405762,10.4558105 L27.7124023,10.4558105 L27.7124023,8.40869141 Z" id="[2]" fill="#9E9E9E"></path>
+                                    <rect id="Cell-Inactive" stroke="#BDBDBD" stroke-width="1.5" fill="#FAFAFA" x="47.6538315" y="0.5" width="291" height="33"></rect>
+                                </g>
+                            </g>
+                            <g id="First-cell" transform="translate(28.000000, 23.000000)">
+                                <g id="Cell" transform="translate(0.000000, 9.000000)">
+                                    <rect id="Cell-input" fill="#2196F3" x="0.653831546" y="0.5" width="6" height="39"></rect>
+                                    <path d="M30.5646973,13.9558105 L28.9460449,13.9558105 L28.9460449,29.1425781 L30.5646973,29.1425781 L30.5646973,31.1896973 L26.3085938,31.1896973 L26.3085938,11.9086914 L30.5646973,11.9086914 L30.5646973,13.9558105 Z M42.0285645,28 L39.3530273,28 L39.3530273,17.364502 L35.8491211,18.6213379 L35.8491211,16.3171387 L41.8857422,14.1367188 L42.0285645,14.1367188 L42.0285645,28 Z M49.7124023,11.9086914 L53.9780273,11.9086914 L53.9780273,31.1896973 L49.7124023,31.1896973 L49.7124023,29.1425781 L51.3405762,29.1425781 L51.3405762,13.9558105 L49.7124023,13.9558105 L49.7124023,11.9086914 Z" id="Cell-prompt" fill="#2196F3"></path>
+                                    <g id="Cell---Active">
+                                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                                        <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                                        <use stroke="#2196F3" stroke-width="1.5" xlink:href="#path-7"></use>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
