@@ -1114,7 +1114,7 @@ body {
 }
 
 .lab-collab-preview-img {
-    
+    margin: 0 auto;
 }
 
 .lab-collab-preview-text {
@@ -1165,6 +1165,66 @@ body {
 .lab-collab-preview-nav-item.nav-active {
     background-color: #E0E0E0;
     border-radius: 2px;
+}
+
+#collab-preview-tab-2 {
+    height: 380px;
+}
+
+#collab-preview-tab-2 .lab-collab-preview-text{
+    position: relative;
+    top: -209px;
+}
+
+#collab-preview-tab-2-img {
+    position: relative;
+    top: -209px;
+    z-index: 0;
+}
+
+.lab-collab-cell-text {
+    display: block;
+    font-size: 16px;
+    position: relative;
+    left: 100px;
+    z-index: 2;
+}
+
+#typeout-cell-1 span:nth-child(2)::after {
+    content: 'John Adams';
+    color: white;
+    position: relative;
+    top: -16px;
+    left: -3px;
+    background-color: #2196F3;
+    padding: 1px 4px;
+}
+
+#typeout-cell-2 span:nth-child(2)::after {
+    content: 'Cary Jones';
+    color: white;
+    position: relative;
+    top: -16px;
+    left: -3px;
+    background-color: #BB4430;
+    padding: 1px 4px;
+}
+
+.lab-collab-cell-1-text {
+    top: 20px;
+}
+
+.lab-collab-cell-2-text {
+    top: 43px;
+}
+
+.lab-collab-cell-output {
+    display: block;
+    position: relative;
+    z-index: 2;
+    top: 60px;
+    left: 108px;
+    opacity: 0;
 }
 
 .lab-native {
@@ -1491,6 +1551,27 @@ body {
         width: 228px;   
     }
     
+    .lab-collab-cell-text {
+        left: 88px;   
+    }
+    
+    .lab-collab-cell-1-text {
+        top: 12px;
+    }
+    
+    .lab-collab-cell-2-text {
+        top: 31px;   
+    }
+    
+    .lab-collab-cell-output {
+        top: 42px;
+        left: 84px;
+    }
+    
+    .lab-native-img {
+        max-width: 732px;   
+    }
+    
 }
 /* Small devices (tablets, 768px and up) */
 @media(min-width:768px) {
@@ -1646,6 +1727,10 @@ body {
     .lab-features-card-container {
         justify-content: space-around;
     }
+    
+    .lab-native-img {
+        max-width: 95%;   
+    }
 }
 /* Extra small devices (these are mostly fixes to make sure elements act correctly to look good) */
 @media (min-width: 509px) {
@@ -1765,4 +1850,17 @@ body {
 @-ms-keyframes move-twinkle-back {
     from {background-position:0 0;}
     to {background-position:-10000px 5000px;}
+}
+
+/* Shows notebook output in collaboration section on the JupyterLab page */
+.show-collab-cell-output {
+    animation: .8s show-collab-cell-output forwards;
+}
+@keyframes show-collab-cell-output {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }

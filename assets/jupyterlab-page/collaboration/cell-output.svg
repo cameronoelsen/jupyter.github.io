@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="229px" height="131px" viewBox="0 0 229 131" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>Cell output</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-308.000000, -4427.000000)" fill="#BB4430">
+            <g id="Group-52" transform="translate(-49.653832, 0.000000)">
+                <g id="Real-time-collaboration-content" transform="translate(194.000000, 4256.000000)">
+                    <g id="Work-in-real-time-tab-content" transform="translate(35.000000, 17.500000)">
+                        <g id="Second-cell" transform="translate(50.000000, 79.000000)">
+                            <g id="Cell-output" transform="translate(78.653832, 74.500000)">
+                                <g id="Output-graph">
+                                    <rect id="Rectangle-41" x="0" y="26" width="10" height="88" rx="5"></rect>
+                                    <rect id="Rectangle-41" x="199" y="41" width="10" height="64" rx="5"></rect>
+                                    <rect id="Rectangle-41" x="219" y="35" width="10" height="48" rx="5"></rect>
+                                    <rect id="Rectangle-41" x="120" y="26" width="10" height="68" rx="5"></rect>
+                                    <rect id="Rectangle-41" x="180" y="54" width="10" height="63" rx="5"></rect>
+                                    <rect id="Rectangle-41" x="140" y="5" width="10" height="73" rx="5"></rect>
+                                    <rect id="Rectangle-41" x="80" y="55" width="10" height="41" rx="5"></rect>
+                                    <rect id="Rectangle-41" x="80" y="6" width="10" height="41" rx="5"></rect>
+                                    <rect id="Rectangle-41" x="40" y="50" width="10" height="81" rx="5"></rect>
+                                    <rect id="Rectangle-41" x="60" y="0" width="10" height="81" rx="5"></rect>
+                                    <rect id="Rectangle-41" x="20" y="20" width="10" height="69" rx="5"></rect>
+                                    <rect id="Rectangle-41" x="100" y="20" width="10" height="69" rx="5"></rect>
+                                    <rect id="Rectangle-41" x="20" y="2" width="10" height="10" rx="5"></rect>
+                                    <rect id="Rectangle-41" x="80" y="104" width="10" height="10" rx="5"></rect>
+                                    <rect id="Rectangle-41" x="120" y="8" width="10" height="10" rx="5"></rect>
+                                    <rect id="Rectangle-41" x="180" y="36" width="10" height="10" rx="5"></rect>
+                                    <rect id="Rectangle-41" x="60" y="89" width="10" height="10" rx="5"></rect>
+                                    <rect id="Rectangle-41" x="160" y="23" width="10" height="81" rx="5"></rect>
+                                    <rect id="Rectangle-41" x="160" y="112" width="10" height="10" rx="5"></rect>
+                                    <rect id="Rectangle-41" x="219" y="17" width="10" height="10" rx="5"></rect>
+                                    <rect id="Rectangle-41" x="20" y="97" width="10" height="10" rx="5"></rect>
+                                    <rect id="Rectangle-41" x="20" y="115" width="10" height="10" rx="5"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
