@@ -1666,6 +1666,18 @@ body {
     .footer ul {
         float: left;
     }
+    #lab-notebook-parallax {
+        padding-top: 32px;
+    }
+    .lab-notebook-paper {
+        padding: 32px;
+    }
+    .lab-content-wrapper #lab-notebook-parallax .container {
+        padding: 0px 20px;
+    }
+    .lab-notebook-cell-input {
+        width: 78%;
+    }
 }
 
 /* Animations */
