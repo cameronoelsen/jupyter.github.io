@@ -28,13 +28,11 @@ $('.lab-collab-preview-nav .lab-collab-preview-nav-item').on('click', function()
         $('#lab-collab-chat-entry-1').addClass('animate-chat-entry-1');
         $('#lab-collab-chat-entry-2').addClass('animate-chat-entry-2');
         
-        var typeChatEntry2 = function() {
-            $('#typeout-chat-2').typist({
-                text: "Yes! I'll add it to the notebook now."
-            });   
-        };
-        
-        window.setTimeout(typeChatEntry2(), 6000);
+        $('#typeout-chat-2').typist({
+            text: "Yes! I'll add it to the notebook now.",
+            speed: 15
+        });   
+            
         tab3HasRun = true;
     }
 });

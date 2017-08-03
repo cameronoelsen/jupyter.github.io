@@ -1232,7 +1232,7 @@ body {
     opacity: 0;
 }
 
-.lab-collab-realtime-img-mobile {
+.lab-collab-realtime-img-mobile, .lab-collab-chat-img-mobile {
     display: none;   
 }
 
@@ -1434,6 +1434,16 @@ body {
         from {left: 744px;}
         to {left: -744px;}
     }
+    
+    /* Moves the chat bubbles up in the real-time collaboration -> chat section on the JupyterLab page */ 
+    @keyframes animate-chat-entry-2 {
+        0% {
+            top: 116px;
+        }
+        100% {
+            top: -48px;
+        }
+    }
 }
 @media (max-width: 992px) {
     p {
@@ -1612,6 +1622,16 @@ body {
     @keyframes move-ext-preview-right-in {
         from {left: 744px;}
         to {left: -702px;}
+    }
+    
+    /* Moves the chat bubbles up in the real-time collaboration -> chat section on the JupyterLab page */ 
+    @keyframes animate-chat-entry-2 {
+        0% {
+            top: 116px;
+        }
+        100% {
+            top: -48px;
+        }
     }
     
     .lab-feature-card {
@@ -1803,6 +1823,11 @@ body {
         display: none;
     }
     
+    /* Hide chat collaboration animation on mobile. Inputting image in it's place */
+    .lab-collab-chat-img-container {
+        display: none;
+    }
+    
     #collab-preview-tab-2 {
         height: 100%;
     }
@@ -1811,7 +1836,7 @@ body {
         top: 0;
     }
     
-    .lab-collab-realtime-img-mobile {
+    .lab-collab-realtime-img-mobile, .lab-collab-chat-img-mobile {
         display: block;   
     }
     
@@ -1965,12 +1990,4 @@ body {
 .animate-chat-entry-2 {
     animation: 1s animate-chat-entry-2 1s ease forwards;
     animation-iteration-count: 1;
-}
-@keyframes animate-chat-entry-2 {
-    0% {
-        top: 116px;
-    }
-    100% {
-        top: -68px;
-    }
 }
