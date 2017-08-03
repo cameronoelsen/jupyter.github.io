@@ -631,7 +631,7 @@ body {
 /* Styling for JupyterLab page */
 
 .lab-jumbotron {
-    height: 650px;
+    height: 616px;
     color: white;
     position: relative;
     top: -70px;
@@ -852,9 +852,11 @@ body {
 
 .lab-overview {
     text-align: center;
+    padding-top: 50px;
 }
 
 .lab-overview-desc {
+    margin-top: 50px;
     margin-bottom: 48px;
 }
 
