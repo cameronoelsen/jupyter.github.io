@@ -1110,7 +1110,8 @@ body {
 }
 
 .lab-collab-preview.preview-active {
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 .lab-collab-preview-img {
@@ -1176,6 +1177,10 @@ body {
     top: -209px;
 }
 
+#collab-preview-tab-3 {
+    margin-top: 0px;
+}
+
 #collab-preview-tab-2-img {
     position: relative;
     top: -209px;
@@ -1211,7 +1216,7 @@ body {
 }
 
 .lab-collab-cell-1-text {
-    top: 20px;
+    top: 30px;
 }
 
 .lab-collab-cell-2-text {
@@ -1222,9 +1227,71 @@ body {
     display: block;
     position: relative;
     z-index: 2;
-    top: 60px;
-    left: 108px;
+    top: 68px;
+    left: 31px;
     opacity: 0;
+}
+
+.lab-collab-realtime-img-mobile {
+    display: none;   
+}
+
+.lab-collab-chat-img-container {
+    display: block;
+    overflow: hidden;
+}
+
+.lab-collab-chat-entry {
+    position: relative;
+    z-index: 0;
+}
+
+#lab-collab-chat-entry-1 {
+    float: right;
+    top: 140px;
+}
+
+#lab-collab-chat-entry-2 {
+    float: left;
+    top: 116px;
+}
+
+.lab-collab-chat-text {
+    position: relative;
+    z-index: 2;
+    color: #757575;
+}
+
+.lab-collab-chat-text-1 {
+    top: 92px;
+    left: 34px;
+}
+
+.lab-collab-chat-text-2 {
+    top: 92px;
+    left: 112px;
+    max-width: 175px;
+    min-height: 48px;
+}
+
+.lab-collab-chat-entry-bubble-1, .lab-collab-chat-entry-bubble-2, .lab-collab-chat-entry-circle-1, .lab-collab-chat-entry-circle-2, .lab-collab-chat-text {
+    position: relative;
+}
+
+.lab-collab-chat-entry-bubble-1 {
+    left: 6px;
+}
+
+.lab-collab-chat-entry-circle-1 {
+    top: 69px;
+}
+
+.lab-collab-chat-entry-bubble-2 {
+    right: 4px;
+}
+
+.lab-collab-chat-entry-circle-2 {
+    top: 64px;
 }
 
 .lab-native {
@@ -1556,7 +1623,7 @@ body {
     }
     
     .lab-collab-cell-1-text {
-        top: 12px;
+        top: 21px;
     }
     
     .lab-collab-cell-2-text {
@@ -1564,8 +1631,8 @@ body {
     }
     
     .lab-collab-cell-output {
-        top: 42px;
-        left: 84px;
+        top: 46px;
+        left: 27px;
     }
     
     .lab-native-img {
@@ -1727,10 +1794,27 @@ body {
     .lab-features-card-container {
         justify-content: space-around;
     }
-    
     .lab-native-img {
         max-width: 95%;   
     }
+    
+    /* Hide real time collaboration animation on mobile. Inputting image in it's place */
+    .lab-collab-cell-output, .lab-collab-cell-text, #collab-preview-tab-2-img {
+        display: none;
+    }
+    
+    #collab-preview-tab-2 {
+        height: 100%;
+    }
+    
+    #collab-preview-tab-2 .lab-collab-preview-text {
+        top: 0;
+    }
+    
+    .lab-collab-realtime-img-mobile {
+        display: block;   
+    }
+    
 }
 /* Extra small devices (these are mostly fixes to make sure elements act correctly to look good) */
 @media (min-width: 509px) {
@@ -1852,7 +1936,7 @@ body {
     to {background-position:-10000px 5000px;}
 }
 
-/* Shows notebook output in collaboration section on the JupyterLab page */
+/* Shows notebook output in the real-time collaboration section on the JupyterLab page */
 .show-collab-cell-output {
     animation: .8s show-collab-cell-output forwards;
 }
@@ -1862,5 +1946,31 @@ body {
     }
     100% {
         opacity: 1;
+    }
+}
+
+/* Moves the chat bubbles up in the real-time collaboration -> chat section on the JupyterLab page */ 
+.animate-chat-entry-1 {
+    animation: 1s animate-chat-entry-1 .8s ease forwards;
+    animation-iteration-count: 1;
+}
+@keyframes animate-chat-entry-1 {
+    0% {
+        top: 140px;
+    }
+    100% {
+        top: -40px;
+    }
+}
+.animate-chat-entry-2 {
+    animation: 1s animate-chat-entry-2 1s ease forwards;
+    animation-iteration-count: 1;
+}
+@keyframes animate-chat-entry-2 {
+    0% {
+        top: 116px;
+    }
+    100% {
+        top: -68px;
     }
 }

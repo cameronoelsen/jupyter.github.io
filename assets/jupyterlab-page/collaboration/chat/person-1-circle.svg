@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="55px" height="55px" viewBox="0 0 55 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>JH Person circle</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0.831457627,27.9800678 C0.831457627,42.9235254 12.9825085,55.0375593 27.9734237,55.0375593 C42.8893559,55.0375593 54.9957966,43.0374237 55.1115932,28.1917288 L55.1115932,27.7674576 C54.9957966,12.9255593 42.8893559,0.925423729 27.9734237,0.925423729 C12.9825085,0.925423729 0.831457627,13.0394576 0.831457627,27.9800678 Z" id="path-1"></path>
+        <path d="M6.80352542,0.741288136 L6.80352542,13.844339 C6.80352542,17.3875254 5.4500339,18.355661 3.24420339,18.355661 C2.3320678,18.355661 1.48067797,18.1705763 0.852338983,17.9911864 L0.378711864,20.9838644 C1.19783051,21.2913898 2.55132203,21.4698305 3.6200678,21.4698305 C7.84284746,21.4698305 10.6760678,19.5943051 10.6760678,13.9648814 L10.6760678,0.741288136 L6.80352542,0.741288136 Z" id="path-3"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-539.000000, -4384.000000)">
+            <g id="Group-52" transform="translate(-49.653832, 0.000000)">
+                <g id="Real-time-collaboration-content" transform="translate(228.000000, 4257.000000)">
+                    <g id="per-document-chat" transform="translate(0.000000, 30.500000)">
+                        <g id="Chat-img">
+                            <g id="Chat-right" transform="translate(113.000000, 0.000000)">
+                                <g id="JH-Person-circle" transform="translate(247.000000, 96.000000)">
+                                    <g id="Group-3" transform="translate(0.000000, 0.446102)">
+                                        <mask id="mask-2" fill="white">
+                                            <use xlink:href="#path-1"></use>
+                                        </mask>
+                                        <g id="Clip-2"></g>
+                                        <polygon id="Fill-1" fill="#2EC0D5" mask="url(#mask-2)" points="-4.18671186 60.0557288 60.1307119 60.0557288 60.1307119 -4.09369492 -4.18671186 -4.09369492"></polygon>
+                                    </g>
+                                    <g id="Group-6" transform="translate(11.389831, 17.530847)">
+                                        <mask id="mask-4" fill="white">
+                                            <use xlink:href="#path-3"></use>
+                                        </mask>
+                                        <g id="Clip-5"></g>
+                                        <polygon id="Fill-4" fill="#FEFEFE" mask="url(#mask-4)" points="-4.63945763 26.4889492 15.6942373 26.4889492 15.6942373 -4.27783051 -4.63945763 -4.27783051"></polygon>
+                                    </g>
+                                    <polygon id="Fill-7" fill="#FEFEFE" points="39.0192814 18.2730847 39.0192814 26.1624407 30.1228746 26.1624407 30.1228746 18.2730847 26.2788068 18.2730847 26.2788068 37.9651525 30.1228746 37.9651525 30.1228746 29.2870508 39.0192814 29.2870508 39.0192814 37.9651525 42.8633492 37.9651525 42.8633492 18.2730847"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="257px" height="114px" viewBox="0 0 257 114" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>MS Person chat bubble</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-227.000000, -4426.000000)">
+            <g id="Group-52" transform="translate(-49.653832, 0.000000)">
+                <g id="Real-time-collaboration-content" transform="translate(228.000000, 4257.000000)">
+                    <g id="per-document-chat" transform="translate(0.000000, 30.500000)">
+                        <g id="Chat-img">
+                            <g id="Chat-left" transform="translate(0.000000, 140.000000)">
+                                <g id="MS-Person-chat-bubble" transform="translate(52.000000, 0.000000)">
+                                    <g id="Group-17" transform="translate(0.000000, 0.500000)">
+                                        <path d="M0.9312,96.8499 L20.8352,75.1579 L20.8352,22.2859 C20.8352,10.0609 30.5882,0.1509 42.6212,0.1509 L229.4482,0.1509 C241.4812,0.1509 251.2302,10.0609 251.2302,22.2859 L251.2302,88.0349 C251.2302,100.2589 241.4812,110.1689 229.4482,110.1689 L42.6212,110.1689 C33.6652,110.1689 25.9742,104.6839 22.6262,96.8369 L0.9312,96.8499 Z" id="Fill-13" fill="#F5F5F5"></path>
+                                        <path d="M0.9312,96.8499 L20.8352,75.1579 L20.8352,22.2859 C20.8352,10.0609 30.5882,0.1509 42.6212,0.1509 L229.4482,0.1509 C241.4812,0.1509 251.2302,10.0609 251.2302,22.2859 L251.2302,88.0349 C251.2302,100.2589 241.4812,110.1689 229.4482,110.1689 L42.6212,110.1689 C33.6652,110.1689 25.9742,104.6839 22.6262,96.8369 L0.9312,96.8499 Z" id="Stroke-15" stroke="#BDBDBD" stroke-width="3"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
