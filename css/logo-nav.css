@@ -1309,6 +1309,14 @@ body {
     margin: auto;
 }
 
+#lab-native-lorenz-vid {
+    display: block;
+    position: absolute;
+    height: 162px;
+    left: 387px;
+    top: 324px;
+}
+
 .lab-native-features {
     max-width: 800px;
     margin: auto;

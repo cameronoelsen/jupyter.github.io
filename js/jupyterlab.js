@@ -117,10 +117,15 @@ $(document).ready(function() {
     
     //Create the Lorenz Attractor animation inside computer in JupyterLab Native section
     
-    var controller = new ScrollMagic.Controller();
+    var lorenzVid = document.getElementById('lab-native-lorenz-vid');
     
-    new ScrollMagic.Scene({
-        duration: 100,
-        offset: 50
-    }).setPin('').addTo(controller);
+    // init controller
+	var controller = new ScrollMagic.Controller();
+
+	// build scene
+	var scene = new ScrollMagic.Scene({triggerElement: ".lab-native", duration: 200})
+					.addTo(controller)
+					.on("enter", function () {
+						lorenzVid.play();
+					});
 });
