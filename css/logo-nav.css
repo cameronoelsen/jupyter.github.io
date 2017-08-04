@@ -690,13 +690,13 @@ body {
     overflow-x: hidden;
 }
 
-.lab-docpanel-desc, lab-collab-about-desc {
+.lab-dockpanel-desc, lab-collab-about-desc {
     font-weight: 400;
     line-height: 1.64;
     color: #424242;
 }
 
-#lab-docpanel-img {
+#lab-dockpanel-img {
     height: 560px;
     margin-left: 16px;
     position: relative;
@@ -1698,7 +1698,7 @@ body {
     .navbar-toggle {
         margin-top: 20px;
     }
-    .lab-docpanel-overview {
+    .lab-dockpanel-overview {
         display: flex;
         align-items: center;
     }
@@ -1798,10 +1798,10 @@ body {
         margin-top: -186px;
         max-width: 475px;
     }
-    .lab-docpanel-header {
+    .lab-dockpanel-header {
         margin-bottom: 12px;
     }
-    #lab-docpanel-img {
+    #lab-dockpanel-img {
         height: 320px;
         margin-left: 0px;
     }
