@@ -1309,12 +1309,18 @@ body {
     margin: auto;
 }
 
+.lab-native-laptop {
+    display: inline-block;
+    margin-top: -148px;
+}
+
 #lab-native-lorenz-vid {
     display: block;
-    position: absolute;
-    height: 162px;
-    left: 387px;
-    top: 324px;
+    position: relative;
+    height: 163px;
+    right: 109px;
+    top: 315px;
+    margin: 0 auto;
 }
 
 .lab-native-features {
@@ -1326,6 +1332,10 @@ body {
 .lab-native-feature {
     text-align: center;
     margin-top: 48px;
+}
+
+.lab-native-header {
+    text-align: center;
 }
 
 .lab-native-feature-header {
@@ -1669,6 +1679,12 @@ body {
         max-width: 732px;   
     }
     
+    #lab-native-lorenz-vid {
+        height: 149px;
+        top: 288px;
+        right: 100px;
+    }
+    
 }
 /* Small devices (tablets, 768px and up) */
 @media(min-width:768px) {
@@ -1870,6 +1886,14 @@ body {
     }
     #lab-collab-about-section-header {
         padding: 0px 15px;   
+    }
+    
+    #lab-native-lorenz-vid {
+        display: none;
+    }
+    
+    .lab-native-laptop {
+        margin-top: 0px;   
     }
     
 }
