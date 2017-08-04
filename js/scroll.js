@@ -70,9 +70,4 @@ $(document).ready(function() {
             }
         }
     });
-    
-    //Used to reveal notebook output on scroll for JupyterLab's notebook section
-    window.sr = ScrollReveal();
-    sr.reveal('.lab-notebook-cell-output-text', {duration: 1000, delay: 350, reset: true}, 50);
-    
 });

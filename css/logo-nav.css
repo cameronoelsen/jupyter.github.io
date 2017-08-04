@@ -1126,7 +1126,7 @@ body {
     font-size: #424242;
 }
 
-.lab-collab-about {
+#lab-collab-about {
     padding-left: 68px;
 }
 
@@ -1830,8 +1830,16 @@ body {
         display: none;
     }
     
+    #collab-preview-tab-1 .lab-collab-preview-text{
+        margin-top: 24px;
+    }
+    
     #collab-preview-tab-2 {
         height: 100%;
+    }
+    
+    #collab-preview-tab-3 {
+        margin-top: 48px;
     }
     
     #collab-preview-tab-2 .lab-collab-preview-text {
@@ -1840,6 +1848,20 @@ body {
     
     .lab-collab-realtime-img-mobile, .lab-collab-chat-img-mobile {
         display: block;   
+    }
+    .lab-collab-preview-nav {
+        left: 0px;
+        margin-top: 20px;
+    }
+    .lab-collab-preview-img {
+        max-width: 368px;
+        width: 100%;
+    }
+    #lab-collab-about {
+        padding-left: 15px;
+    }
+    #lab-collab-about-section-header {
+        padding: 0px 15px;   
     }
     
 }
