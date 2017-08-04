@@ -663,7 +663,7 @@ body {
     font-size: 16px;
 }
 
-.lab-header-preview {
+#lab-header-preview {
     z-index: 1;
     margin-top: -175px;
 }
@@ -696,9 +696,10 @@ body {
     color: #424242;
 }
 
-.lab-docpanel-img {
+#lab-docpanel-img {
     height: 560px;
     margin-left: 16px;
+    position: relative;
 }
 
 #universe {
@@ -1408,7 +1409,7 @@ body {
         float: right;
         margin-top: 15px;
     }
-    .lab-jumbotron .lab-header-preview {
+    .lab-jumbotron #lab-header-preview {
         width: 800px;
         padding-top: 16px;
     }
@@ -1589,7 +1590,7 @@ body {
         width: 700px;
         margin-left: 25px;
     }
-    .lab-header-preview {
+    #lab-header-preview {
         width: 700px;
         margin-top: -186px;
     }
@@ -1608,7 +1609,7 @@ body {
     /* Pagination effect for JupyterLab extension section on the JupyterLab page (for Desktop > 992px) */
     .move-ext-preview-left-out {
         display: inline-block;
-        animation: .3s move-ext-preview-left-out ease forwards;
+        animation: .1s move-ext-preview-left-out ease forwards;
     }
 
     @keyframes move-ext-preview-left-out {
@@ -1618,7 +1619,7 @@ body {
 
     .move-ext-preview-right-out {
         display: inline-block;
-        animation: .3s move-ext-preview-right-out ease forwards;
+        animation: .1s move-ext-preview-right-out ease forwards;
     }
 
     @keyframes move-ext-preview-right-out {
@@ -1628,7 +1629,7 @@ body {
 
     .move-ext-preview-left-in {
         display: inline-block;
-        animation: .3s move-ext-preview-left-in ease forwards;
+        animation: .1s move-ext-preview-left-in ease forwards;
     }
 
     @keyframes move-ext-preview-left-in {
@@ -1637,7 +1638,7 @@ body {
     }
     .move-ext-preview-right-in {
         display: inline-block;
-        animation: .3s move-ext-preview-right-in ease forwards;
+        animation: .1s move-ext-preview-right-in ease forwards;
     }
     @keyframes move-ext-preview-right-in {
         from {left: 744px;}
@@ -1792,7 +1793,7 @@ body {
         max-width: 80%;
         margin: 0 auto;
     }
-    .lab-header-preview {
+    #lab-header-preview {
         width: 90%;
         margin-top: -186px;
         max-width: 475px;
@@ -1800,7 +1801,7 @@ body {
     .lab-docpanel-header {
         margin-bottom: 12px;
     }
-    .lab-docpanel-img {
+    #lab-docpanel-img {
         height: 320px;
         margin-left: 0px;
     }

@@ -35,8 +35,10 @@
     <!-- Place this tag right after the last button or just before your close body tag. -->
     <script async defer id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
     <script src="{{site.baseurl}}/js/scroll.js"></script>
+    {% if page.url == '/' or page.url == '/index.html' %}
     <script src="{{site.baseurl}}/js/architecture.js"></script>
     <script src="{{site.baseurl}}/js/simon.js"></script>
+    {% endif %}
     {% if page.url == '/jupyterlab.html' %}
     <script src="{{site.baseurl}}/js/parallax.min.js"></script>
     <script src="{{site.baseurl}}/js/scrollreveal.min.js"></script>

@@ -78,7 +78,7 @@ $(document).ready(function() {
                    $('#' + previous_tab_id).removeClass('ext-active');
                    $('#' + previous_tab_id).removeClass('move-ext-preview-left-out');
                    $('#' + current_tab_id).removeClass('move-ext-preview-right-in');
-               }, 1000);
+               }, 300);
            } 
 
 
@@ -123,9 +123,17 @@ $(document).ready(function() {
 	var controller = new ScrollMagic.Controller();
 
 	// build scene
-	var scene = new ScrollMagic.Scene({triggerElement: ".lab-native", duration: 200})
+	var lorenzAnimation = new ScrollMagic.Scene({triggerElement: ".lab-native", duration: 200})
 					.addTo(controller)
 					.on("enter", function () {
 						lorenzVid.play();
+					});
+    // build scene
+	var scene = new ScrollMagic.Scene({triggerElement: ".lab-loading-screen-bg", duration: 600, offset: 100})
+					.addTo(controller)
+					.on("progress", function (e) {
+                        var offset = 68 * e.progress;
+                        var value = -175 - offset;
+						$('#lab-header-preview').css("margin-top", value);
 					});
 });
