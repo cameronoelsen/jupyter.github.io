@@ -115,56 +115,56 @@
 }
 
 #interfaces-block {
-  background-image: url(../assets/documentation/interfaces-block.svg);
+  background-image: url(../assets/documentation-page/interfaces-block.svg);
   background-repeat: no-repeat;
   background-position-x: 102%;
   background-position-y: center
 }
 #education-block {
-  background-image: url(../assets/documentation/education-block.svg);
+  background-image: url(../assets/documentation-page/education-block.svg);
   background-repeat: no-repeat;
   background-position-x: 90%;
   background-position-y: center
 }
 #jupyterhub-block {
-  background-image: url(../assets/documentation/jupyterhub_block.svg);
+  background-image: url(../assets/documentation-page/jupyterhub_block.svg);
   background-repeat: no-repeat;
   background-position-x: 90%;
   background-position-y: 10px;
 }
 #kernels-block {
-  background-image: url(../assets/documentation/kernels-block.svg);
+  background-image: url(../assets/documentation-page/kernels-block.svg);
   background-repeat: no-repeat;
   background-position-x: 102%;
   background-position-y: 130%;
 }
 #conversion-block {
-  background-image: url(../assets/documentation/conversion-block.svg);
+  background-image: url(../assets/documentation-page/conversion-block.svg);
   background-repeat: no-repeat;
   background-position-x: 90%;
   background-position-y: center
 }
 #ipython-block {
-  background-image: url(../assets/documentation/ipython-block-font.svg);
+  background-image: url(../assets/documentation-page/ipython-block-font.svg);
   background-repeat: no-repeat;
   background-size: 108px;
   background-position-x: 90%;
   background-position-y: center;
 }
 #architecture-block {
-  background-image: url(../assets/documentation/architecture-block.svg);
+  background-image: url(../assets/documentation-page/architecture-block.svg);
   background-repeat: no-repeat;
   background-position-x: 90%;
   background-position-y: center;
 }
 #deployment-block {
-  background-image: url(../assets/documentation/deployment-block.svg);
+  background-image: url(../assets/documentation-page/deployment-block.svg);
   background-repeat: no-repeat;
   background-position-x: 90%;
   background-position-y: 140%;
 }
 #jupyterlab-block {
-  background-image: url(../assets/documentation/jupyterlab-block.svg);
+  background-image: url(../assets/documentation-page/jupyterlab-block.svg);
   background-repeat: no-repeat;
   background-position-x: 90%;
   background-position-y: center;
