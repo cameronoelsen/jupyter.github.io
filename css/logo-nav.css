@@ -343,7 +343,7 @@ body {
     margin: 0 auto;
 }
 .hubfeatures {
-    background: url("../assets/line.svg");
+    background: url("../assets/home-page/line.svg");
     background-position:  top center;
     background-repeat: no-repeat;
     /* Padding that is used to make the hubfeature circles sit on track */
@@ -588,7 +588,7 @@ body {
   background-color: transparent;
 }
 .jupytercon-jumbotron {
-    background-image: url(../assets/jupytercon-ny.jpg);
+    background-image: url(../assets/home-page/jupytercon-ny.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -834,12 +834,12 @@ body {
 }
 
 .stars {
-  background: #00283F url('../assets/lab-stars.png') repeat top center;
+  background: #00283F url('../assets/jupyterlab-page/lab-stars.png') repeat top center;
   z-index:-2;
 }
 
 .twinkling{
-  background:transparent url('../assets/lab-twinkling.png') repeat top center;
+  background:transparent url('../assets/jupyterlab-page/lab-twinkling.png') repeat top center;
   z-index:-2;
 
   -moz-animation:move-twinkle-back 600s linear infinite;
@@ -1298,7 +1298,7 @@ body {
 }
 
 .lab-native {
-    background-image: url("../assets/lab-native-bg-img.png");
+    background-image: url("../assets/jupyterlab-page/lab-native-bg-img.png");
     background-size: cover;
     background-position: center 168px;
     background-repeat: no-repeat;
