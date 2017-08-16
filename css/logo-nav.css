@@ -39,6 +39,18 @@ body {
     -webkit-box-shadow: 1px 1px 1px #999;
     box-shadow: 1px 1px 1px #999;
 }
+.transparent-navbar {
+    background-color: transparent;
+}
+.transparent-nav > li > a{
+    color: white;
+}
+.transparent-nav > li > a:active, .transparent-nav > li > a:focus {
+  background-color: transparent;
+}
+.navbar-toggle > .white-icon-bar {
+    background-color: white;
+}
 .transparent-nav > li > .black-tab {
     color: black;
 }
@@ -93,6 +105,7 @@ body {
 .footer-text {
     margin-left: 0;
     padding-left: 0;
+    font-size: 16px;
 }
 
 /*Main logo animation on the front page of the Jupyter website */
@@ -563,57 +576,6 @@ body {
     background-color: #F27624;
 }
 
-/* JupyterCon Jumbotron Styling */
-.transparent-navbar {
-    background-color: transparent;
-}
-.transparent-nav > li > a{
-    color: white;
-}
-.transparent-nav > li > a:active, .transparent-nav > li > a:focus {
-  background-color: transparent;
-}
-.jupytercon-jumbotron {
-    background-image: url(../assets/home-page/jupytercon-ny.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: auto;
-    margin-top: 0px;
-    position: relative;
-    top: -70px;
-    margin-bottom: -70px;
-}
-#jupytercon-logo {
-    display: block;
-    margin: 0 auto;
-    width: 500px;
-    margin-top: 100px;
-}
-.jupytercon-header, .jupytercon-subheader  {
-    color: white;
-    text-align: center;
-}
-.jupytercon-header {
-    margin-bottom: 16px;
-}
-.jupytercon-subheader {
-    margin-top: 8px;
-    margin-bottom: 0px;
-}
-.jupytercon-button {
-    display: block;
-    text-align: center;
-    margin-top: 40px;
-    margin-bottom: 20px;
-}
-.navbar-toggle > .white-icon-bar {
-    background-color: white;
-}
-.footer-text {
-    font-size: 16px;
-}
-
 /* Styling for Jupyterlab Home Jumbotron */
 .lab-home-jumbotron {
     height: 100%;
@@ -640,6 +602,7 @@ body {
     color: white;
     padding-left: 154px;
     margin-bottom: 28px;
+    line-height: 1.32;
 }
 
 .lab-home-jumbotron-btn-container {
@@ -1805,9 +1768,6 @@ body {
     }
     .jumbotron {
         margin-right: 5%;
-    }
-    .jupytercon-jumbotron {
-        margin-right: 0px;
     }
     .lab-content-wrapper .container {
         padding-left: 40px;
