@@ -261,7 +261,7 @@ body {
 
 /* Jupyter Notebook highlight section on front page */
 .nb-highlight-text {
-    margin-top: 60px;
+    margin-top: 0px;
 }
 .notebook-icon {
     height: auto;
@@ -278,22 +278,8 @@ body {
 .nb-desc {
     font-weight: 400;
     line-height: 1.5;
-}
-
-/* Install prompt on front page */
-.install-prompt {
-    background-color: #FAFAFA;
-    border-bottom-color: #BDBDBD;
-    border-left-style: none;
-    border-style: solid;
-    border-top-color: #BDBDBD;
-    border-width: thin;
-    border-right: 0px;
-    padding: 4px 0 24px 0;
-    text-align: center;
-}
-.prompt-header {
-    margin-bottom: 16px;
+    margin-top: 20px;
+    margin-bottom: 32px;
 }
 
 /* Companies section for only "Currently in use" (this section acts differently than customer logos in the "About" section of the site) */
@@ -626,6 +612,44 @@ body {
 }
 .footer-text {
     font-size: 16px;
+}
+
+/* Styling for Jupyterlab Home Jumbotron */
+.lab-home-jumbotron {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    overflow: hidden;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.lab-home-jumbotron-logo {
+    display: block;
+    max-width: 428px;
+    padding-top: 60px;
+    padding-right: 20px;
+}
+
+.lab-home-jumbotron-preview {
+    width: 800px;
+}
+
+.lab-home-jumbotron-subhead {
+    color: white;
+    padding-left: 154px;
+    margin-bottom: 28px;
+}
+
+.lab-home-jumbotron-btn-container {
+    margin-left: 154px;
+}
+
+.lab-home-jumbotron-btn {
+    display: block;
+    max-width: 200px;
+    margin-bottom: 16px;
 }
 
 /* Styling for JupyterLab page */
@@ -1372,6 +1396,17 @@ body {
     .companies li{
         width:23%;
     }
+
+    /* Styling for JupyterLab Home Jumbotron */
+    .lab-home-jumbotron-logo {
+        max-width: 400px;
+    }
+    .lab-home-jumbotron-subhead {
+        padding-left: 112px;
+    }
+    .lab-home-jumbotron-btn-container {
+        margin-left: 112px;
+    }
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
@@ -1611,27 +1646,22 @@ body {
         display: inline-block;
         animation: .1s move-ext-preview-left-out ease forwards;
     }
-
     @keyframes move-ext-preview-left-out {
         from {right: 0;}
         to {right: 744px;}
     }
-
     .move-ext-preview-right-out {
         display: inline-block;
         animation: .1s move-ext-preview-right-out ease forwards;
     }
-
     @keyframes move-ext-preview-right-out {
         from {left: -744px;}
         to {left: 744px;}
     }
-
     .move-ext-preview-left-in {
         display: inline-block;
         animation: .1s move-ext-preview-left-in ease forwards;
     }
-
     @keyframes move-ext-preview-left-in {
         from {right: 744px;}
         to {right: 0px;}
@@ -1654,38 +1684,56 @@ body {
             top: -48px;
         }
     }
-    
     .lab-feature-card {
         width: 228px;   
     }
-    
     .lab-collab-cell-text {
         left: 88px;   
     }
-    
     .lab-collab-cell-1-text {
         top: 21px;
     }
-    
     .lab-collab-cell-2-text {
         top: 31px;   
     }
-    
     .lab-collab-cell-output {
         top: 46px;
         left: 27px;
     }
-    
     .lab-native-img {
         max-width: 732px;   
     }
-    
     #lab-native-lorenz-vid {
         height: 149px;
         top: 288px;
         right: 100px;
     }
-    
+
+    /* Styling for JupyterLab Home Jumbotron */
+    .lab-home-jumbotron-logo {
+        padding-top: 0px;
+        padding-right: 0px;
+    }
+    .lab-home-jumbotron-subhead {
+        padding-left: 0px;
+        text-align: center;
+        max-width: 374px;
+        margin: 0 auto;
+        margin-top: 16px;
+        margin-bottom: 24px;
+    }
+    .lab-home-jumbotron-btn-container {
+        margin-left: 0px;
+        text-align: center;
+        margin-bottom: 32px;
+    }
+    .lab-home-jumbotron-btn {
+        display: inline-block;
+        margin: 0px 4px;
+    }
+    .lab-home-jumbotron-preview {
+        width: 100%;
+    }
 }
 /* Small devices (tablets, 768px and up) */
 @media(min-width:768px) {
@@ -1897,6 +1945,10 @@ body {
         margin-top: 0px;   
     }
     
+    /* Styling for JupyterLab Jumbotron on home page */
+    .lab-home-jumbotron-logo {
+        width: 364px;
+    }
 }
 /* Extra small devices (these are mostly fixes to make sure elements act correctly to look good) */
 @media (min-width: 509px) {
@@ -1935,6 +1987,16 @@ body {
     }
     .lab-notebook-cell-input {
         width: 78%;
+    }
+
+    /* Styling for JupyterLab Jumbotron on home page */
+    .lab-home-jumbotron-logo {
+        width: 84%;
+    }
+    .lab-home-jumbotron-btn {
+        max-width: inherit;
+        width: 100%;
+        margin-bottom: 12px;
     }
 }
 

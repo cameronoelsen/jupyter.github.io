@@ -128,12 +128,4 @@ $(document).ready(function() {
 					.on("enter", function () {
 						lorenzVid.play();
 					});
-    // build scene
-	var scene = new ScrollMagic.Scene({triggerElement: ".lab-loading-screen-bg", duration: 600, offset: 100})
-					.addTo(controller)
-					.on("progress", function (e) {
-                        var offset = 68 * e.progress;
-                        var value = -175 - offset;
-						$('#lab-header-preview').css("margin-top", value);
-					});
 });
